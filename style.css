@@ -1,0 +1,128 @@
+body {
+    font-family: sans-serif;
+    background-color: black;
+}
+
+
+h1 {
+    color: burlywood;
+    text-align: center;
+    border: 10px double red;
+    border-radius: 15px;
+    width: 300px;
+    margin-left: 160px;
+    box-shadow: 3px 5px 0 0 peru;
+}
+
+main {
+justify-content: space-between;
+}
+    
+p {
+    width: 280px;
+     display: block;
+     justify-content: space-between;
+     float: right;
+      color: red;
+     border: 6px dashed red;
+     border-radius: 15px;
+     padding: 5px; 
+}
+
+img {
+     border: 2px double red;
+       border-radius: 15px;
+       margin: 8px;
+       
+       
+}
+
+h2 {
+    color: burlywood;
+    text-align: center;
+     margin-left: 20px;
+}
+
+.image1 {
+height: 380px;
+width: 260px;
+}
+
+.image2 {
+height: 430px;
+width: 280px;
+}
+
+.image3 {
+height: 260px;
+width: 260px;
+}
+
+.image4 {
+height: 360px;
+width: 280px;
+}
+
+.image5 {
+height: 250px;
+width: 280px;
+}
+
+
+h2:hover {
+    font-size: 26px;
+    color: red;
+    border: 4px dotted yellow;
+    border-radius: 15px;
+    background-color: rgb(87, 77, 77);
+     transition: 2s linear;
+     width: 300px;
+     box-shadow: 3px 5px 0 0 red;
+}
+
+p:hover {
+    text-decoration: underline;
+    border: 4px dotted yellow;
+    box-shadow: 3px 5px 0 0 red;
+}
+
+
+img:hover{
+    border: 4px dashed darkred;
+     box-shadow: 3px 5px 0 0 peru;
+} 
+
+.button {
+    text-align: center;
+    font-size: 20px;
+    color: red;
+    background-color: black;
+    text-decoration: none;
+    border: 4px double red;
+    padding: 10px;
+     margin-left: 200px;
+}
+
+.button:hover {
+    font-size: 24px;
+    color: black;
+    transition: 2s linear;
+    background-color: red;
+    text-decoration: none;
+    border: 4px dashed yellowgreen;
+    border-radius: 15px;
+    box-shadow: 3px 5px 0 0 peru;
+}
+
+.button:visited {
+    background-color: gray;
+    color: red;
+}
+
+.text {
+    padding-bottom: 200px;
+}
+
+section {
+    margin: 20px;
+}
